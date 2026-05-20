@@ -8,18 +8,7 @@
 A complete end-to-end SQL analytics project on a synthetic healthcare claims dataset (10,000+ records).  
 Demonstrates skills in **data modelling, SQL querying (basic to advanced), and business insight generation** — directly relevant to data analyst roles in healthcare, insurance, and BFSI domains.
 
----
 
-## Tech Stack
-
-| Tool        | Purpose                          |
-|-------------|----------------------------------|
-| Python 3.x  | Dataset generation (Faker)       |
-| SQLite 3    | Database (no install needed)     |
-| SQL         | Schema design + all analysis     |
-| MySQL/PostgreSQL | Production-ready (compatible) |
-
----
 
 ## Dataset
 
@@ -30,29 +19,7 @@ Demonstrates skills in **data modelling, SQL querying (basic to advanced), and b
 | `claims`    | 10,000  | Medical insurance claims (fact table)    |
 | `payments`  | ~9,500  | Payment transactions per claim           |
 
----
 
-## Files
-
-```
-sql_project/
-├── generate_data.py      ← Generates all 4 CSV files in /data/
-├── schema.sql            ← CREATE TABLE + INDEX statements
-├── analysis_queries.sql  ← 22 SQL queries (Basic → Advanced)
-├── load_and_query.py     ← Loads CSVs into SQLite, runs queries
-├── data/
-│   ├── patients.csv
-│   ├── providers.csv
-│   ├── claims.csv
-│   └── payments.csv
-└── README.md
-```
-
----
-
-
-
----
 
 ## SQL Skills Demonstrated
 
