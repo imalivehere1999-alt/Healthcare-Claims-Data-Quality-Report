@@ -115,13 +115,6 @@ All 22 queries are grouped and commented by difficulty level.
 
 ---
 
-## Resume Bullet Points (copy-paste ready)
 
-- Built end-to-end SQL analytics project on 10,000+ healthcare claims records using Python and SQLite
-- Wrote 22 SQL queries (CTEs, Window Functions, JOINs) to analyse claim approval rates, denial trends, and provider performance
-- Identified fraud-risk claims where billed amounts exceeded 3× the average for the same procedure
-- Segmented 1,000 patients into risk tiers using multi-condition CASE logic and aggregation
 
----
 
-*Dataset is fully synthetic — generated using the Faker library. No real patient data.*
