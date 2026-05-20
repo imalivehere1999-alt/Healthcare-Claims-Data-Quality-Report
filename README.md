@@ -50,23 +50,7 @@ sql_project/
 
 ---
 
-## How to Run
 
-### Step 1 — Generate the dataset
-```bash
-pip install faker
-python generate_data.py
-```
-
-### Step 2 — Load into SQLite and run queries
-```bash
-python load_and_query.py
-```
-This creates `healthcare_claims.db` and prints results for 7 sample queries.
-
-### Step 3 — Open analysis_queries.sql  
-Open in **DBeaver**, **DB Browser for SQLite**, **MySQL Workbench**, or any SQL client.  
-All 22 queries are grouped and commented by difficulty level.
 
 ---
 
@@ -112,7 +96,6 @@ All 22 queries are grouped and commented by difficulty level.
 - "Not Medically Necessary" is the top denial reason
 - Cardiology and Oncology have the highest average billed amounts
 - Medicare patients have higher approval rates than Self-Pay patients
-
 ---
 
 
